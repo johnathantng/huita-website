@@ -1,0 +1,72 @@
+/* FOR DESKTOPS */
+.navbar{
+	display: flex;
+	background: blue;
+	height: 5vh;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+.navbar-container{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	top: 5%;
+	cursor: pointer;
+}
+.hamburger-icon{
+	display: none;
+}
+
+/* FOR TABLETS */
+@media (max-width: 1024px) {
+	.navbar-container{
+		left: 20%;
+		right: 20%;
+	}
+}
+
+/* FOR PHONES */
+@media (max-width: 480px) {
+	.hamburger-icon{
+		display: flex;
+		position: absolute;
+		right: 0;
+		margin: 10px;
+		cursor: pointer;
+		z-index: 1;
+	}
+	.navbar-container{
+		display: flex;
+		top: -100%;
+		flex-direction: column;
+		margin: 0;
+		background: blue;
+		left: 0;
+		right: 0;
+		padding: 10px;
+	}
+	.navbar-container-show{
+		display: flex;
+		top: 5%;
+		flex-direction: column;
+		background: blue;
+		left: 0;
+		right: 0;
+		padding: 10px;
+	}
+	.navbar-container, .navbar-container-show{
+		-webkit-transition: top 0.5s ease;
+		-moz-transition: top 0.5s ease;
+		transition: top 0.5s ease;
+	}
+	.navbar-items{
+		display: flex;
+	  justify-content: center;
+	  width: 100%;
+	  text-align: center;
+	  margin-top: 10px;
+	}
+}
