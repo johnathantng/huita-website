@@ -24,7 +24,7 @@ const Navbar = () => {
 						<a href='#works'>Works</a>
 					</div>
 					<div className='navbar-items'>
-						Services
+						<a href='#services'>Services</a>
 					</div>
 					<div className='navbar-items'>
 						Contact
