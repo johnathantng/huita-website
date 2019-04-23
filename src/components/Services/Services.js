@@ -1,16 +1,16 @@
 import React from 'react';
-import './Works.css';
-import triangleShape from '../../images/works/works.png';
+import './Services.css';
+import starShape from '../../images/services/services.png';
 
-const Works = () => {
+const Services = () => {
 	return(
-		<div id='works'>
-			<div className='works-container'>
+		<div id='services'>
+			<div className='services-container'>
 				<div className='img-container'>
 					<img 
 						id='squareImg' 
 						alt='square' 
-						src={triangleShape} 
+						src={starShape} 
 					/>
 				</div>
 				<div className='text-container'>
@@ -21,4 +21,4 @@ const Works = () => {
 	);
 }
 
-export default Works;
+export default Services;

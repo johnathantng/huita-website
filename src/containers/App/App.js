@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Landing from '../../components/Landing/Landing';
 import Mission from '../../components/Mission/Mission';
 import Works from '../../components/Works/Works';
+import Services from '../../components/Services/Services';
 
 class App extends Component {
 	render() {
@@ -12,9 +13,9 @@ class App extends Component {
 				<Landing />
 				<Mission />
 				<Works />
+				<Services />
 			</div>
 			/*
-				<Services />
 				<Contact /> 
 			*/
 		);
