@@ -1,0 +1,28 @@
+.logo-container{
+	width: 100%;
+	margin-top: 15vh;
+	background: #FFFBF5;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#mainLogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+}
+
+/* FOR TABLETS */
+@media (max-width: 1024px) {
+	#mainLogo{
+		width: 60%;
+	}
+}
+
+/* FOR PHONES */
+@media (max-width: 480px) {
+	#mainLogo{
+		width: 80%;
+		z-index: -1;
+	}
+}

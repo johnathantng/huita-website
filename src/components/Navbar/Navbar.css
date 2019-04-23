@@ -1,7 +1,9 @@
 /* FOR DESKTOPS */
+body{
+	background: #FFFBF5;
+}
 .navbar{
 	display: flex;
-	background: blue;
 	height: 5vh;
 	width: 100%;
 	left: 0;
@@ -32,30 +34,38 @@
 @media (max-width: 480px) {
 	.hamburger-icon{
 		display: flex;
-		position: absolute;
+		position: fixed;
 		right: 0;
 		margin: 10px;
 		cursor: pointer;
+		z-index: 2;
+	}
+	.navbar{
 		z-index: 1;
 	}
 	.navbar-container{
+		position: fixed;
 		display: flex;
 		top: -100%;
 		flex-direction: column;
 		margin: 0;
-		background: blue;
+		background: white;
 		left: 0;
 		right: 0;
 		padding: 10px;
+		z-index: 1;
 	}
 	.navbar-container-show{
 		display: flex;
-		top: 5%;
+		top: 0;
 		flex-direction: column;
-		background: blue;
+		background: white;
 		left: 0;
 		right: 0;
 		padding: 10px;
+		z-index: 1;
+		box-shadow: grey 0 1px 1px 0;
+		border: round;
 	}
 	.navbar-container, .navbar-container-show{
 		-webkit-transition: top 0.5s ease;
@@ -68,5 +78,8 @@
 	  width: 100%;
 	  text-align: center;
 	  margin-top: 10px;
+	}
+	.navbar-items:first-child{
+		padding-top: 5vh;
 	}
 }
