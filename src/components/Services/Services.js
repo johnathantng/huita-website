@@ -5,11 +5,11 @@ import starShape from '../../images/services/services.png';
 const Services = () => {
 	return(
 		<div id='services'>
-			<div className='services-container'>
+			<div className='heading-container'>
 				<div className='img-container'>
 					<img 
-						id='squareImg' 
-						alt='square' 
+						id='headingImg' 
+						alt='services' 
 						src={starShape} 
 					/>
 				</div>
