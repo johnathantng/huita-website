@@ -21,7 +21,7 @@ const Navbar = () => {
 						<a href='#mission'>Mission</a>
 					</div>
 					<div className='navbar-items'>
-						Work
+						<a href='#works'>Works</a>
 					</div>
 					<div className='navbar-items'>
 						Services

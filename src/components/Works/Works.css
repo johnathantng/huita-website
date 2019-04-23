@@ -1,9 +1,10 @@
-.mission-container{
+.works-container{
 	padding-top: 100px;
 	padding-bottom: 100px;
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	background: #8D6369;
 }
 .img-container{
 	width: 50%;
@@ -23,7 +24,7 @@
 
 /* FOR TABLETS */
 @media (max-width: 1024px) {
-	.mission-container{
+	.works-container{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
