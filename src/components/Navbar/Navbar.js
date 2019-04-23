@@ -18,7 +18,7 @@ const Navbar = () => {
 				{/* NAVBAR */}
 				<div className='navbar-container slide-down'>
 					<div className='navbar-items'>
-						Mission
+						<a href='#mission'>Mission</a>
 					</div>
 					<div className='navbar-items'>
 						Work
