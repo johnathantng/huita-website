@@ -1,4 +1,4 @@
-.works-container{
+.contact-container{
 	padding-top: 100px;
 	padding-bottom: 100px;
 	display: flex;
@@ -14,9 +14,8 @@
 	width: 50%;
 	margin-top: auto;
 	margin-bottom: auto;
-	padding: 20px;
 }
-#squareImg{
+#triangleImg{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -25,7 +24,7 @@
 
 /* FOR TABLETS */
 @media (max-width: 1024px) {
-	.works-container{
+	.contact-container{
 		display: flex;
 		flex-direction: column-reverse;
 		align-items: center;
