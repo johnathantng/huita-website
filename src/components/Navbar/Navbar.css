@@ -16,7 +16,9 @@ body{
 	left: 30%;
 	right: 30%;
 	top: 5%;
-	cursor: pointer;
+}
+.navbar-items{
+	font-size: 1.25em;
 }
 .hamburger-icon{
 	display: none;
@@ -32,6 +34,11 @@ body{
 
 /* FOR PHONES */
 @media (max-width: 480px) {
+	.hamburger-wrapper{
+		width: 100%;
+		z-index: -1;
+		height: 5vh;
+	}
 	.hamburger-icon{
 		display: flex;
 		position: fixed;
@@ -39,6 +46,10 @@ body{
 		margin: 10px;
 		cursor: pointer;
 		z-index: 2;
+		font-size: 1.25em;
+		padding: 5px;
+		background: white;
+		border-radius: 50px;
 	}
 	.navbar{
 		z-index: 1;

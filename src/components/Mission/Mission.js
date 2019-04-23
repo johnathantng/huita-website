@@ -1,20 +1,23 @@
 import React from 'react';
-import './Mission.css';
 import circleShape from '../../images/mission/mission.png';
 
 const Mission = () => {
 	return(
 		<div id='mission'>
-			<div className='mission-container'>
+			<div className='heading-container'>
 				<div className='img-container'>
 					<img 
-						id='squareImg' 
-						alt='square' 
+						id='headingImg' 
+						alt='mission' 
 						src={circleShape} 
 					/>
 				</div>
 				<div className='text-container'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Huita Studios strives to design for others in an innovative way 
+					that tailors to each user. We value not only authenticity, 
+					but the story behind each user that makes them unique. 
+					We believe in creating new experiences by embracing what they already know, 
+					challenging the unexpected and kindling their imagination.
 				</div>
 			</div>
 		</div>

@@ -5,6 +5,7 @@ import Mission from '../../components/Mission/Mission';
 import Works from '../../components/Works/Works';
 import Services from '../../components/Services/Services';
 import Contact from '../../components/Contact/Contact';
+import './App.css';
 
 class App extends Component {
 	render() {
