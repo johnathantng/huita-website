@@ -4,6 +4,7 @@ import Landing from '../../components/Landing/Landing';
 import Mission from '../../components/Mission/Mission';
 import Works from '../../components/Works/Works';
 import Services from '../../components/Services/Services';
+import Contact from '../../components/Contact/Contact';
 
 class App extends Component {
 	render() {
@@ -14,10 +15,8 @@ class App extends Component {
 				<Mission />
 				<Works />
 				<Services />
-			</div>
-			/*
 				<Contact /> 
-			*/
+			</div>
 		);
 	}
 }
