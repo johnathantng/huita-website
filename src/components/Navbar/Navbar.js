@@ -11,7 +11,7 @@ const Navbar = () => {
 
 	return(
 		<div>
-			<div className='navbar'>
+			<div id='nav' className='navbar'>
 				<div onClick={classToggle} className='hamburger-icon'>
 					&#9776;
 				</div>
