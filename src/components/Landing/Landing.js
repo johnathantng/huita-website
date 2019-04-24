@@ -1,6 +1,6 @@
 import React from 'react';
 import './Landing.css';
-import mainLogo from '../../images/landing/huita-closed.png'
+import mainLogo from '../../images/landing/huita-open.png'
 
 const Landing = () => {
 	return(

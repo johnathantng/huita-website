@@ -1,20 +1,23 @@
 import React from 'react';
 import './Works.css';
-import squareShape from '../../images/works/works.png';
+import sampleOne from '../../images/works/iconsample1.png';
+import sampleTwo from '../../images/works/iconsample2.png';
+import sampleThree from '../../images/works/iconsample3.png';
+import sampleFour from '../../images/works/iconsample4.png';
+
 
 const Works = () => {
 	return(
 		<div id='works'>
-			<div className='heading-container brown-background reverse'>
-				<div className='text-container cream'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<div className='heading-container white-background reverse'>
+				<div className='sample-container'>
+					<img id='sampleImg' alt='sample-images' src={sampleOne} />
+					<img id='sampleImg' alt='sample-images' src={sampleTwo} />
+					<img id='sampleImg' alt='sample-images' src={sampleThree} />
+					<img id='sampleImg' alt='sample-images' src={sampleFour} />
 				</div>
-				<div className='img-container'>
-					<img 
-						id='headingImg' 
-						alt='works' 
-						src={squareShape} 
-					/>
+				<div className='works-heading'>
+					Works
 				</div>
 			</div>
 		</div>

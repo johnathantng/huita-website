@@ -4,6 +4,7 @@
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	overflow: hidden;
 }
 .img-container{
 	width: 50%;
@@ -23,6 +24,9 @@
 	margin-right: auto;
 	width: 60%
 }
+.cream{
+	color: #FFFBF5;
+}
 
 /* FOR TABLETS */
 @media (max-width: 1024px) {
@@ -35,6 +39,7 @@
 		margin-top: 10px;
 		text-align: left;
 		font-size: 1.25em;
+		line-height: 1.4em;
 	}
 	#headingImg{
 		width: 80%;
