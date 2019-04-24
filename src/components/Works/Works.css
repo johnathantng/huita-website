@@ -1,8 +1,26 @@
-.brown-background{
-	background: #8D6369;
+#sampleImg{
+	width: auto;
+	height: 20vh;
+	margin: 20px;
 }
-.cream{
-	color: #FFFBF5;
+.works-heading{
+	text-align: center;
+	align-content: center;
+	width: 50%;
+	font-size: 2.5em;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.sample-container{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	padding-left: 100px;
+}
+.white-background{
+	background: #FFF;
 }
 
 /* FOR TABLETS */
@@ -11,9 +29,17 @@
 		display: flex !important;
 		flex-direction: column-reverse !important;
 	}
+	.sample-container{
+		display: flex;
+		flex-direction: column;
+		padding-left: 0;
+	}
 }
 
 /* FOR PHONES */
 @media (max-width: 480px) {
-
+	.sample-container{
+	display: flex;
+	flex-direction: column;
+	}
 }
