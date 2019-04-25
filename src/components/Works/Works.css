@@ -3,6 +3,10 @@
 	height: 20vh;
 	margin: 20px;
 }
+#worksContainer{
+	display: flex;
+	flex-direction: column;
+}
 .works-heading{
 	text-align: center;
 	align-content: center;

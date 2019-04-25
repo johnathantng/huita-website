@@ -1,13 +1,28 @@
 import React from 'react';
 import './Contact.css';
 import triangleShape from '../../images/contact/connected.png';
+import emailIcon from '../../images/contact/envelope.png';
+import linkedinIcon from '../../images/contact/linkedin.png';
+import fiverrIcon from '../../images/contact/fiverr.png';
+import instagramIcon from '../../images/contact/instagram.png';
 
 const Contact = () => {
 	return(
 		<div id='contact'>
 			<div className='heading-container brown-background reverse'>
-				<div className='text-container cream'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<div className='contact-container'>
+					<a target='_blank' href='mailto:huita.studios@gmail.com'>
+						<img id='contactIcons' alt='email-icon' src={emailIcon} />
+					</a>
+					<a target='_blank' href='https://linkedin.com/in/huita-studios-817135184'> 
+						<img id='contactIcons' alt='email-icon' src={linkedinIcon} /> 
+					</a>
+					<a target='_blank' href='https://www.fiverr.com/huitastudios/'>
+						<img id='contactIcons' alt='email-icon' src={fiverrIcon} />
+					</a>
+					<a target='_blank' href='https://www.instagram.com/huita.studios/'> 
+						<img id='contactIcons' alt='email-icon' src={instagramIcon} /> 
+					</a>
 				</div>
 				<div className='img-container'>
 					<img 

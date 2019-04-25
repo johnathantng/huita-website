@@ -1,4 +1,14 @@
-
+.services-list{
+	width: 50%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+ul{
+	text-align: center;
+}
+li{
+	margin: 20px;
+}
 
 /* FOR TABLETS */
 @media (max-width: 1024px) {
